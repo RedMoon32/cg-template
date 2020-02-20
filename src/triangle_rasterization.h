@@ -11,6 +11,7 @@ public:
 	virtual ~TriangleRasterization();
 
 	void DrawScene();
+	void ConnectPoints(float4 triangle[3]);
 
 protected:
 	void DrawTriangle(float4 traingle[3]);
